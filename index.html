@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ladoA">
+        <h1>Stay updated!</h1>
+
+        <p class="paragraf">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+
+        <ul>
+          <li>
+            <img src="./assets/images/icon-list.svg" alt="" /> Product discovery
+            and building what matters
+          </li>
+          <li>
+            <img src="./assets/images/icon-list.svg" alt="" /> Measuring to
+            ensure updates are a success
+          </li>
+          <li>
+            <img src="./assets/images/icon-list.svg" alt="" /> Measuring to
+            ensure updates are a success
+          </li>
+        </ul>
+
+        <form id="form" action="">
+          <span class="aviso">Email address</span>
+
+          <span class="span-required">Valid email required</span>
+          <input
+            type="email"
+            placeholder="email@company.com"
+            class="input required"
+            oninput="emailValidade()"
+          />
+          <a type="submit" class="ButA" onclick="logaR()">
+            Subscribe to monthly newsletter
+          </a>
+        </form>
+      </div>
+
+      <div class="ladoImg">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

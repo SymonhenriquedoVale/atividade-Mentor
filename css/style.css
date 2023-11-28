@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: hsl(235, 18%, 26%);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: hsl(240, 14%, 95%);
+  gap: 40px;
+  max-width: 950px;
+  height: 650px;
+  align-items: center;
+  margin: 100px auto;
+  border-radius: 3rem;
+}
+
+.agradecimento {
+  display: grid;
+  background: white;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 100px auto;
+  height: 380px;
+  width: 350px;
+}
+
+.agradecimento p {
+  margin-top: -20px;
+  width: 300px;
+}
+
+.agradecimento img {
+  width: 40px;
+  height: 40px;
+}
+
+h2 {
+  margin-top: -10px;
+  font-size: 3rem;
+}
+
+.butB {
+  color: white;
+  display: block;
+  font-weight: bold;
+  background: hsl(234, 29%, 20%);
+  width: 300px;
+  padding: 14px;
+  border-radius: 6px;
+  border: 1px solid rgb(109, 105, 165);
+}
+
+h1 {
+  font-size: 3rem;
+  align-self: left;
+}
+
+.paragraf {
+  width: 300px;
+}
+
+input {
+  display: block;
+  width: 330px;
+  padding: 14px;
+  margin-top: 10px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid rgb(228, 221, 221);
+}
+
+.span-required {
+  display: none;
+  color: hsl(4, 100%, 67%);
+  top: 5px;
+  font-size: 10px;
+  margin-left: 270px;
+  width: 100%;
+}
+
+.ButA {
+  color: white;
+  display: block;
+  font-weight: bold;
+  background: hsl(234, 29%, 20%);
+  width: 360px;
+  padding: 14px;
+  border-radius: 6px;
+  border: 1px solid rgb(109, 105, 165);
+  cursor: pointer;
+}
+
+.aviso {
+  justify-self: left;
+}
+
+.ladoA {
+  width: 400px;
+  padding-left: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.ladoImg {
+  padding: 10px;
+}
+
+ul {
+  font-size: 16px;
+  list-style: none;
+  padding: 20px;
+  width: 380px;
+  margin-left: -20px;
+}
+
+ul img {
+  display: inline-block;
+  margin-right: 10px;
+  width: 14px;
+  height: 14px;
+}
+
+.paragraf {
+  width: 100%;
+}
+
+ul li {
+  padding: 5px;
+  margin-right: 25px;
+}
+
+.aviso {
+  font-size: 12px;
+  font-weight: bold;
+}
